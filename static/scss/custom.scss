@@ -1,0 +1,21 @@
+
+
+$dark: #192959;
+$body-color: #192959;
+
+@import "../node_modules/bootstrap/scss/functions";
+
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+$custom-theme-colors: ( 
+    "dark-blue": #192959,
+    "hue-blue": #3b62d9,
+    "tint-blue": #dce4f2,
+    "shade-blue": #1d3273,
+    "tone-blue": #6382bf
+    );
+    
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

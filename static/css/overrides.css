@@ -1,0 +1,37 @@
+.project-card, .skills-section {
+    transition: all 0.2s ease-in-out;
+}
+.project-card:hover, .skills-section:hover {
+    transform: scale(1.05);
+}
+
+.skills-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill-container {
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.skill-container img {
+  width: 5rem;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.skill-container h3 {
+  font-size: 1.5rem;
+	font-size: 16px;
+  font-weight: 500;
+  color: #343a40;
+}
